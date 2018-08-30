@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegisterClient</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9efb0f6-bfd0-4694-aa3e-66897cb3ff41</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>2d113f99-4aae-4a0c-a562-735bedbffccf</id>
+      <masked>true</masked>
+      <name>ignoreProtectedModeSettings</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegisterClientTestSuite" time="47" tests="0" failures="1" errors="0">
+   <testsuite name="RegisterClientTestSuite" tests="0" failures="1" errors="0" time="47" timestamp="2018-08-30 10:05:44" hostname="mscarpace - USLMAMSCARPACE1.us.deloitte.com" id="Test Suites/RegisterClientTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mscarpace\\Katalon Studio\\Registration\\Reports\\RegisterClientTestSuite\\20180830_100539"/>
+         <property name="logFiles" value="C:\\Users\\mscarpace\\Katalon Studio\\Registration\\Reports\\RegisterClientTestSuite\\20180830_100539\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mscarpace\\Katalon Studio\\Registration\\Reports\\RegisterClientTestSuite\\20180830_100539\\1535637980825.png"/>
+         <property name="hostName" value="mscarpace - USLMAMSCARPACE1.us.deloitte.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.21.175.73"/>
+         <property name="sessionId" value="2babca138347bf0dcf3a62a43f45aa80"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RegisterClient" classname="Test Cases/RegisterClient" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-08-30 10:05:45 - [TEST_CASE][FAILED] - Test Cases/RegisterClient: Test Cases/RegisterClient FAILED because (of) Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)
+
+2018-08-30 10:05:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-30 10:06:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-30 10:06:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vacms.enh.sit.dss.virginia.gov/SELoginAccess.jsp?fromIndex=true' successfully
+
+2018-08-30 10:06:10 - [MESSAGE][PASSED] - Navigate to 'https://vacms.enh.sit.dss.virginia.gov/SELoginAccess.jsp?fromIndex=true' successfully
+
+2018-08-30 10:06:10 - [TEST_STEP][FAILED] - setText: Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)
+
+2018-08-30 10:06:26 - [MESSAGE][FAILED] - Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\mscarpace\\Katalon Studio\\Registration\\Reports\\RegisterClientTestSuite\\20180830_100539\\1535637980825.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-30 10:05:45 - [TEST_CASE][FAILED] - Test Cases/RegisterClient: Test Cases/RegisterClient FAILED because (of) Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-30 10:05:44 - [TEST_SUITE][FAILED] - RegisterClientTestSuite: Test Cases/RegisterClient FAILED because (of) Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-30 10:05:44 - [TEST_SUITE][FAILED] - RegisterClientTestSuite: Test Cases/RegisterClient FAILED because (of) Unable to set text 'xxx009' of object 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegisterClient/remaningDataEntry/Page_VaCMS/input_userId' located by 'By.xpath: //input[@name = 'userId' and @id = 'userId' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

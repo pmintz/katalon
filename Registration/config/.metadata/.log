@@ -1,0 +1,140 @@
+katalon.versionNumber=5.6.1
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+!SESSION 2018-08-30 10:24:33.128 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\mscarpace\Katalon Studio\Registration\Registration.prj
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config C:\Users\mscarpace\Katalon Studio\Registration\Registration.prj
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-30 10:24:40.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mscarpace'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+Exception in thread "Thread-5" java.lang.NullPointerException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$5(WelcomeRightPart.java:623)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at java.util.HashMap.merge(HashMap.java:1225)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1696)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.kms.katalon.composer.project.sample.SampleRemoteProjectProvider.getThumbnailFiles(SampleRemoteProjectProvider.java:62)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$8(WelcomeRightPart.java:624)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+katalon.versionNumber=5.6.1
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+!SESSION 2018-08-30 10:25:11.970 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\mscarpace\Katalon Studio\Registration\Registration.prj
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config C:\Users\mscarpace\Katalon Studio\Registration\Registration.prj
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-30 10:25:22.376
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mscarpace'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+Exception in thread "Thread-5" java.lang.NullPointerException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:598)
+	at java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:677)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:735)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:583)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$5(WelcomeRightPart.java:623)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at java.util.HashMap.merge(HashMap.java:1225)
+	at java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+	at java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1696)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.kms.katalon.composer.project.sample.SampleRemoteProjectProvider.getThumbnailFiles(SampleRemoteProjectProvider.java:62)
+	at com.kms.katalon.composer.parts.WelcomeRightPart.lambda$8(WelcomeRightPart.java:624)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:291)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)

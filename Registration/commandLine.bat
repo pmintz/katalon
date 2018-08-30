@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\mscarpace\Katalon Studio\Registration\Registration.prj" -retry=0 -testSuitePath="Test Suites/RegisterClientTestSuite" -executionProfile="default" -browserType="Chrome"

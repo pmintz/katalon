@@ -1,0 +1,28 @@
+//open browser
+WebUI.openBrowser("www.katalon.com")
+//click on login button to login
+WebUI.click(findTestObject('Object Repository/Script/Page_Katalon Studio Best automated/a_Sign in'))
+//enter username and password
+WebUI.setText(findTestObject('Object Repository/Script/Page_Sign in  Katalon Studio/input_user_email'), "mscarpace@deloitte.com")
+WebUI.setText(findTestObject('Object Repository/Script/Page_Sign in  Katalon Studio/input_user_pass'), "alcon79bn" )
+//click on sign in
+WebUI.click(findTestObject('Object Repository/Script/Page_Sign in  Katalon Studio/input_login-btn'))
+//click on search
+WebUI.click(findTestObject('Object Repository/Script/Page_Katalon Studio Free Download/img'))
+
+//WebUI.waitForElementVisible(findTestObject('Object Repository/Script/Page_Katalon Studio Free Download/input_s'), 30, FailureHandling.STOP_ON_FAILURE)
+//WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Script/Page_Katalon Studio Free Download/input_s'),30)
+//WebDriverWait wait = new WebDriverWait(driver, timeout);
+//wait.until(ExpectedConditions.visibilityOf(element));
+
+
+
+
+//WebElement element = 
+WebUI.executeJavaScript("document.getElementById('input_text_search').value='script';", null)
+WebUI.waitForElementClickable(findTestObject('Object Repository/New Test Case/Page_Katalon Studio Free Download/img'), 50)
+//WebUI.submit(findTestObject('Object Repository/Script/Page_Katalon Studio Free Download/img (1)'))
+//WebUI.waitForPageLoad(30)
+WebUI.click(findTestObject('Object Repository/New Test Case/Page_Katalon Studio Free Download/img'))
+WebUI.executeJavaScript("document.getElementById('input_text_search').value='script';", null)
+WebUI.click(findTestObject('Object Repository/New Test Case/Page_Katalon Studio Free Download/img'))
